@@ -36,3 +36,10 @@ export interface CategoryIconProps {
   active?: boolean;
   onClick?: () => void;
 }
+
+export interface PillProps {
+  label: string;
+  onClick?: (label: string) => void;
+  active?: boolean;
+  className?: string;
+}

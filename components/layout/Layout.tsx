@@ -6,10 +6,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="min-h-screen">{children}</main>
+      <main className="pt-56 min-h-screen">{children}</main>
       <Footer />
     </>
   );
-}
+};
 
 export default Layout;
